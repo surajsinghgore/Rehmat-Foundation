@@ -10,7 +10,7 @@ export default function page() {
       <div className={style.logo}>
         <div className={style.image}>
           <Link href={"/"}>
-            <Image src={logo} alt="Logo" layout="fill" />
+            <Image src={logo} alt="Logo" layout="fill" priority/>
           </Link>
         </div>
         <div className={style.heading}>
