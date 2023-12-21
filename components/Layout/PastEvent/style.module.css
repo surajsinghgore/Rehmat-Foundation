@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Doodle+Triangles&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 .PastEvent{
     width: 100%;
@@ -15,7 +15,7 @@ padding-bottom: 5%;
 .PastEvent p{
     text-align: center;
     font-size: 1.3vw;
-    font-family: "Dancing Script";
+
     text-transform: uppercase;
 color: rgb(84, 84, 84);
 }
