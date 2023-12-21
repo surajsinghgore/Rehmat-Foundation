@@ -36,7 +36,7 @@ export default function Page() {
         className={(myArray[1]=="About")?style.activePage:""}
         
         >
-          <Link href="">ABOUT</Link>
+          <Link href="/About">ABOUT</Link>
         </li>
         <li
         className={(myArray[1]=="Gallery")?style.activePage:""}
@@ -51,7 +51,7 @@ export default function Page() {
           <Link href="/Events">EVENTS</Link>
         </li>
         <li className={(myArray[1]=="Contact")?style.activePage:""}>
-          <Link href="">CONTACT</Link>
+          <Link href="/Contact">CONTACT</Link>
         </li>
         <li className={(myArray[1]=="Members")?style.activePage:""}>
           <Link href="/Members">MEMBERS</Link>
@@ -60,7 +60,7 @@ export default function Page() {
 
       {/* donate button */}
       <div className={style.donateButton}>
-        <button>DONATE</button>
+      <Link href="/Donation"> <button>DONATE</button></Link>
       </div>
     </div>
   );

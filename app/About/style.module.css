@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+.AboutHome{
+margin-top: 1%;
+    width: 100%;
+    height: auto;
+}
+
+.AboutHome h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+}
+.AboutHome p{
+    font-size: 2vw;
+    text-align: center;
+}
+
+.AboutHome .container{
+
+    display: flex;
+    margin-top: 2%;
+margin-bottom: 5%;
+}
+
+.AboutHome .container .left{
+    position: relative;
+width: 36vw;
+margin-left: 5%;
+border-radius: 2px;
+height: 26vw;
+}
+
+.AboutHome .container .right{
+    width: 45%;
+margin-left: 5%;
+}
+.AboutHome .container .right h2{
+    padding-top: 9%;
+    color: rgb(109, 109, 109);
+    font-size: 1.4vw !important;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+ .memberCards{
+width: 100%;
+display: flex;
+margin-bottom: 5%;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+ .memberCards .card{
+    width: 22%;
+    margin-left: 2%;
+        margin-top: 2%;
+    height: auto    ;
+    background-color: #f9f9f9;
+    
+}
+ .memberCards .card .image{
+margin-top: 8%;
+    position: relative;
+    width: 80%;
+  
+    margin-left: 10%;
+    height: 18vw;
+}
+ .memberCards .card .image img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+ .memberCards .card h3{
+text-align: center;
+margin-top: 2%;
+margin-bottom: 2%;
+font-size: 1.2vw;
+    color: rgb(247, 103, 0);
+}
+ .memberCards .card h2{
+font-size: 1.2vw;
+    text-align: center;
+    font-weight: 660;
+    width: 95%;
+    margin-left: 2.5%;
+    color: rgb(47, 47, 47);
+    margin-bottom: 7%;
+}
