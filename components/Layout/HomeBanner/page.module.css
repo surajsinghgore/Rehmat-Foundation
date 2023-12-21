@@ -70,6 +70,10 @@ margin-top: 6%;
 font-family: Arial, Helvetica,   sans-serif;
     text-transform: uppercase;
 }
+.homeBannerContainer .upcomingEvent .eventDetails h1:hover{
+    color: red;
+}
+
 
 .homeBannerContainer .upcomingEvent .eventDetails h2{
     display: flex;

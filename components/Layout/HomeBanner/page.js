@@ -3,6 +3,7 @@ import { FaRegCalendar } from "react-icons/fa";
 import { VscLocation } from "react-icons/vsc";
 
 import CountDownTimer from "../CountDownTimer/page"
+import Link from "next/link";
 export default function page() {
   return (
     <div className={style.homeBannerContainer}>
@@ -20,14 +21,14 @@ export default function page() {
     {/* date */}
     <div className={style.date}>
     <div>
-       <h1>30</h1> 
-       <h2> DEC</h2> 
+       <h1>30 DEC</h1> 
+       <h2> 2023</h2> 
     
     </div>
     </div>
 {/* details */}
     <div className={style.eventDetails}> 
-    <h1> Upcoming Event : 2nd SHAHEEDI JODMELA OF CHAAR SAHIBZADE</h1>
+    <h1><Link href="/UpcomingEvent">Upcoming Event : 2nd SHAHEEDI JODMEL OF CHAAR SAHIBZADE</Link> </h1>
        <h2> <span><FaRegCalendar /> </span>  10:00 AM - 9:00 PM</h2>
   <h2> <span> <VscLocation /></span> Dusshera Ground, Sector 43 A Chandigarh</h2>
   

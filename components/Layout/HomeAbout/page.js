@@ -3,7 +3,7 @@ import Image from 'next/legacy/image';
 export default function page() {
   return (
     <div className={style.AboutHome}>
-     <h1>REHMAT FOUNDATION CHANDIGARH</h1>
+     <h1>REHMAT FOUNDATION </h1>
      <p>UNITY IS DIVERSITY</p>
      
      <div className={style.container}>

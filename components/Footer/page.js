@@ -17,15 +17,15 @@ export default function page() {
 <Image src="/logo.png" alt="logo" layout='fill' />
 </div>
 <div className={style.brandName}>
-Rehmat Foundation Chandigarh
+Rehmat Foundation 
 </div>
 </div>
 
 {/* contact */}
 <div className={style.contact}>
-<li><span><SlLocationPin /></span> Sector 43-A Chandigarh</li>
-<li><span><FaPhone /></span>+91 7658647638</li>
-<li><span><IoMdMail /></span>rehmatfoundation@gmail.com</li>
+<li><span><SlLocationPin /></span> Chandigarh</li>
+<li><span><FaPhone /></span>+91 9888987216</li>
+<li><span><IoMdMail /></span>rehmatfoundation43@gmail.com</li>
 
 
 </div>

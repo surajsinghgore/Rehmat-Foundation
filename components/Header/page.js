@@ -14,7 +14,7 @@ export default function page() {
           </Link>
         </div>
         <div className={style.heading}>
-          R.F. <span>CHD</span>
+          REH<span>MAT</span>
         </div>
       </div>
       {/* links of header */}
