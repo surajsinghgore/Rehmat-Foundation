@@ -31,7 +31,7 @@ export default function page() {
 <Image src="/member/img13.jpg" alt="member 1" layout="fill" priority/>
 </div>
 <h3>Chairman</h3>
-<h2>Jarnail Singh, DY Commissioner Excise and Taxatiob PB(Retd.)</h2>
+<h2>Jarnail Singh, DY Commissioner Excise and Taxation PB(Retd.)</h2>
 </div>
 
 
@@ -41,7 +41,7 @@ export default function page() {
 <Image src="/member/img10.jpg" alt="member 1" layout="fill" priority/>
 </div>
 <h3>General Secretary</h3>
-<h2>Ram Singh Balon</h2>
+<h2>Ram Singh Balongi</h2>
 </div>
 
 {/* member 5 */}
