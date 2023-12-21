@@ -21,7 +21,7 @@ export default function page() {
     {/* date */}
     <div className={style.date}>
     <div>
-       <h1>30 DEC</h1> 
+       <h2>30 DEC</h2> 
        <h2> 2023</h2> 
     
     </div>
