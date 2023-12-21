@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Doodle+Triangles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+.PastEvent{
+    width: 100%;
+    background-color: #f9f9f9;
+padding-bottom: 5%;
+}
+.PastEvent h1{
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 5%;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+}
+.PastEvent p{
+    text-align: center;
+    font-size: 1.3vw;
+    font-family: "Dancing Script";
+    text-transform: uppercase;
+color: rgb(84, 84, 84);
+}
+
+.PastEvent .container{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content:space-evenly;
+}
+
+.PastEvent .container .event{
+    margin-top: 2%;
+    width: 26%;
+    height: auto;
+   padding-bottom: 1.5%;
+}
+
+
+.PastEvent .container .event .Main_Image{
+    
+    position: relative;
+    width: 100%;
+    height: 18vw;
+}
+.PastEvent .container .event  h2{
+    text-align: center;
+    font-size: 1.4vw;
+    padding-top: 5%;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+
+}
+.PastEvent .container .event:hover {
+    transition: all 0.2s;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgb(237, 237, 237);
+}
+
+.PastEvent .container .event  p{
+
+    text-align: center;
+    font-size: 1.3vw;
+   
+color: rgb(39, 39, 39);
+}
+
+.PastEvent .container .event .date{
+    display: flex;
+margin-top: 2%;
+margin-left: 4%;
+color: rgb(43, 43, 43);
+}
+.PastEvent .container .event .date span{
+    display: flex;
+margin-top: 1%;
+margin-right: 2%;
+color: rgb(245, 66, 66);
+}
