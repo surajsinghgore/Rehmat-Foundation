@@ -9,6 +9,7 @@ import Link from "next/link";
 
 export default function Page() {
   const currentPage = usePathname();
+  const myArray = currentPage.split("/")
 
   return (
     <div className={style.Header}>
@@ -32,28 +33,28 @@ export default function Page() {
           <Link href="/">HOME</Link>
         </li>
         <li
-        className={(currentPage=="/About")?style.activePage:""}
+        className={(myArray[1]=="About")?style.activePage:""}
         
         >
           <Link href="">ABOUT</Link>
         </li>
         <li
-        className={(currentPage=="/Gallery")?style.activePage:""}
+        className={(myArray[1]=="Gallery")?style.activePage:""}
         
         >
           <Link href="">GALLERY</Link>
         </li>
         <li
         
-        className={(currentPage=="/Events"||currentPage=="/UpcomingEvent")?style.activePage:""}
+        className={(myArray[1]=="Events")?style.activePage:""}
         >
           <Link href="/Events">EVENTS</Link>
         </li>
-        <li className={(currentPage=="/Contact")?style.activePage:""}>
+        <li className={(myArray[1]=="Contact")?style.activePage:""}>
           <Link href="">CONTACT</Link>
         </li>
-        <li className={(currentPage=="/Members")?style.activePage:""}>
-          <Link href="">MEMBERS</Link>
+        <li className={(myArray[1]=="Members")?style.activePage:""}>
+          <Link href="/Members">MEMBERS</Link>
         </li>
       </div>
 

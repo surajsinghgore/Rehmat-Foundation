@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+.Member h1 {
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 1%;
+    font-family: "Kanit", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .Member .memberCards{
+width: 100%;
+display: flex;
+margin-bottom: 2%;
+flex-wrap: wrap;
+}
+
+.Member .memberCards .card{
+    width: 22%;
+    margin-left: 2%;
+        margin-top: 2%;
+    height: auto    ;
+    background-color: #f9f9f9;
+    
+}
+.Member .memberCards .card .image{
+margin-top: 8%;
+    position: relative;
+    width: 80%;
+  
+    margin-left: 10%;
+    height: 18vw;
+}
+.Member .memberCards .card .image img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Member .memberCards .card h3{
+text-align: center;
+margin-top: 2%;
+margin-bottom: 2%;
+font-size: 1.2vw;
+    color: rgb(247, 103, 0);
+}
+.Member .memberCards .card h2{
+font-size: 1.2vw;
+    text-align: center;
+    font-weight: 660;
+    width: 95%;
+    margin-left: 2.5%;
+    color: rgb(47, 47, 47);
+    margin-bottom: 7%;
+}

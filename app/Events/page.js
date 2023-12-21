@@ -47,7 +47,7 @@ export default function page() {
 
 {/* 18 Dec 2022 */}
 
-<div className={style.card}><Link href="">
+<div className={style.card}><Link href="/Events/Event1">
 <div className={style.imageSection}>
 <Image src="/homeabout.jpg" alt="event 1" layout='fill' priority />
 </div>

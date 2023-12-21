@@ -9,7 +9,7 @@ export default function page() {
       <h1>Event Completed</h1>
       <p>Our lives in praising God</p>
 
-      <Link href=""> <div className={style.container}>
+      <Link href="/Events/Event1"> <div className={style.container}>
      
 {/* 18 Dec 2022 */}
         <div className={style.event}>
