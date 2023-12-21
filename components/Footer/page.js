@@ -35,10 +35,10 @@ Rehmat Foundation
 <div className={style.useFullLinks}>
 <h3>USEFUL LINKS</h3>
 <div className={style.links}>
-<li><span><FaAngleDoubleRight /></span><Link href="">About</Link></li>
-<li><span><FaAngleDoubleRight /></span><Link href="">Gallery</Link></li>
-<li><span><FaAngleDoubleRight /></span><Link href="">Events</Link></li>
-<li><span><FaAngleDoubleRight /></span><Link href="">Contact</Link></li>
+<li><span><FaAngleDoubleRight /></span><Link href="/About">About</Link></li>
+<li><span><FaAngleDoubleRight /></span><Link href="/Gallery">Gallery</Link></li>
+<li><span><FaAngleDoubleRight /></span><Link href="/Events">Events</Link></li>
+<li><span><FaAngleDoubleRight /></span><Link href="/Contact">Contact</Link></li>
 
 
 </div>

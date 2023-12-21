@@ -1,0 +1,36 @@
+.gallery{
+    width: 80%;
+    margin-left: 10%;
+}
+.gallery h1{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 550;
+}
+
+.gallery .pics{
+margin-top: 5%;
+margin-bottom: 5%;
+    display: flex;
+    overflow: hidden;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.gallery .pics .sectionSmall{
+position: relative;
+    width: 28%;
+    margin-bottom: 2%;
+    height: 17vw;
+}
+.gallery .pics .sectionSmallSmall{
+position: relative;
+    width: 23%;
+    margin-bottom: 2%;
+    height: 17vw;
+}
+.gallery .pics .sectionLarge{
+position: relative;
+    width: 38%;
+    height: 17vw;
+}

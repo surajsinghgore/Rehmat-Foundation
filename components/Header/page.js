@@ -42,7 +42,7 @@ export default function Page() {
         className={(myArray[1]=="Gallery")?style.activePage:""}
         
         >
-          <Link href="">GALLERY</Link>
+          <Link href="/Gallery">GALLERY</Link>
         </li>
         <li
         
