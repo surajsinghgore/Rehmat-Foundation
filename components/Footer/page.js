@@ -24,7 +24,7 @@ Rehmat Foundation
 {/* contact */}
 <div className={style.contact}>
 <li><span><SlLocationPin /></span> Chandigarh</li>
-<li><span><FaPhone /></span>+91 9888987216</li>
+<li><span><FaPhone /></span>+91 9888987216, 9915501161, 9915108868</li>
 <li><span><IoMdMail /></span>rehmatfoundation43@gmail.com</li>
 
 
