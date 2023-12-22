@@ -46,7 +46,7 @@ export default function Page() {
         </li>
         <li
         
-        className={(myArray[1]=="Events")?style.activePage:""}
+        className={(myArray[1]=="Events"||currentPage=="/UpcomingEvent")?style.activePage:""}
         >
           <Link href="/Events">EVENTS</Link>
         </li>
