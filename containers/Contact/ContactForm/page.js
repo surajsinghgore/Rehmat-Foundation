@@ -1,10 +1,13 @@
 "use client";
-
+import LoadingBar from "react-top-loading-bar";
 import { useState } from "react";
 import style from "../../../app/Contact/style.module.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
 export default function Page() {
+  const [progress, setProgress] = useState(0);
+
   const [data, setData] = useState({ clientName: "", email: "", message: "" });
   const handleChangeInput = (e) => {
     const { name, value } = e.target;
@@ -13,6 +16,7 @@ export default function Page() {
   // send message
   const sendData = async (e) => {
     e.preventDefault();
+    setProgress(40);
     const res = await fetch("/api/contactMe", {
       method: "POST",
       headers: {
@@ -21,6 +25,7 @@ export default function Page() {
       body: JSON.stringify(data),
     });
     const resGet = await res.json();
+    setProgress(100);
 
     if (res.status == 500) {
       toast.error(resGet.message, {
@@ -64,6 +69,12 @@ export default function Page() {
   };
   return (
     <div className={style.right}>
+       <LoadingBar
+        color="#ff0800"
+        progress={progress}
+       
+        height={6}
+      />
       <h2>KEEP IN TOUCH</h2>
       <div className={style.form}>
         <form onSubmit={sendData} method="post">
