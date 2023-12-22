@@ -11,14 +11,14 @@ export async function POST(req) {
 
 
 try{
-    const { orderID, amount, Email } = await req.json();
+    const { orderID, amount,name,phone, Email,address } = await req.json();
     var paytmParams = {};
     paytmParams.body = {
         "requestType"   : "Payment",
         "mid"           : mid,
         "websiteName"   : "WEBSTAGING",
         "orderId"       : `${orderID}`,
-        "callbackUrl"   : `${HOST}/api/PaytmPostTransaction`,
+        "callbackUrl"   : `${HOST}/api/PaytmPostTransaction?Email=${Email}&name=${name}&phone=${phone}&address=${address}`,
         "txnAmount"     : {
             "value"     : `${amount}`,
             "currency"  : "INR",
@@ -30,7 +30,6 @@ try{
     
     
     let checksum=await PaytmChecksum.generateSignature(JSON.stringify(paytmParams.body), mkey)
-    
         paytmParams.head = {
             "signature"    : checksum
         };
@@ -67,7 +66,7 @@ try{
                   post_res.on('end',async function(){
                     
            let token=await JSON.parse(response).body.txnToken;
-  
+
           resolve(token)
                   });
               });

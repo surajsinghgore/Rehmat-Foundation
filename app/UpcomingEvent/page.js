@@ -28,7 +28,14 @@ export default function page() {
 <p><span><MdDateRange /></span>30 DEC 2023</p>
 <p><span><IoIosClock /></span>10:00 AM - 9:00 PM</p>
 
+<p>10:00 - 10:30 AM - Japji sahib path <br/>
+10:30 - 12:00 AM - Baba Jaswinder Singh (Ratwara Sahib)<br/>
+12:00 - 01:00 PM - Bhai Arvinder Singh (Kittu veer ji)<br/>
+01:00 - 02:00 PM - Bhai Inderpal Singh (Patiala Wale)<br/>
+02:00 - 02:30 PM - Bhai Harjit Singh Sabarwal  <br/>
+02:30 - 03:00 PM - Bhai Puran Singh Ji Sector 43 Chandigarh 
 
+</p>
 <h4>MAIN ATTRACTION</h4>
 <div className={style.details}>
 

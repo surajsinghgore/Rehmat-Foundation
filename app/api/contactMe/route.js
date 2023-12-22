@@ -109,11 +109,3 @@ export async function POST(req) {
     );
   }
 }
-
-// export async function PUT() {
-//   return NextResponse.json({ message: 'Hello - PUT' });
-// }
-
-// export async function DELETE() {
-//   return NextResponse.json({ message: 'Hello - DELETE' });
-// }

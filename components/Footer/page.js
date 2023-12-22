@@ -47,7 +47,7 @@ Rehmat Foundation
 {/* recent events */}
 <div className={style.aboutUs}>
 <h3>ABOUT US</h3>
-<p>Rehmat Foundation is a foundation or NGO in Chandigarh which helps needy people by giving them food-langar and shelter. The foudation provide equality in every religion. </p>
+<p>Rehmat Foundation is a foundation or NGO in Chandigarh which helps needy people by giving them food-langar. The foundation provide equality in every religion.We have to engage the youth with ourselves </p>
 </div>
     </div>
      <div className={style.bottom}>

@@ -44,8 +44,8 @@ export default function Page() {
       }
     );
     let txnToken = await ress.json();
-console.log(txnToken.token)
-    //               // setOrderId(datas.token)
+    setProgress(100);
+
     var config = {
              "root": "",
              "flow": "DEFAULT",
@@ -137,7 +137,7 @@ console.log(txnToken.token)
       return;
 
     }
-    setProgress(100);
+  
     makePaytmPayment(data.amount);
 
     
@@ -197,13 +197,13 @@ console.log(txnToken.token)
 
         <div className={style.bottomBtn}>
           <div className={style.left}></div>
-          <div className={style.right}>
-          <button>
+          <button> 
+          
           Pay ₹ {data.amount}
-          </button>
             
           
-          </div>
+      
+          </button>
         </div>
         <p>You will get receipt of this payment on your Email.</p>
       </div>
