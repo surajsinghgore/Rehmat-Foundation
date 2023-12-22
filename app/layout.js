@@ -1,9 +1,7 @@
-import Header from '../components/Header/page';
-import Footer from '../components/Footer/page';
+import Header from "../components/Header/page";
+import Footer from "../components/Footer/page";
 
-import './globals.css'
-
-
+import "./globals.css";
 
 export const metadata = {
   icons: {
@@ -25,19 +23,20 @@ export const metadata = {
   ],
   creator: "rehmatFoundation.in",
   publisher: "rehmatFoundation",
- 
 };
-
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      
-  <Header/>
-      {children}
-      <Footer/>
+    
+        <Header />
+
+        {children}
+
+        <Footer />
+     
       </body>
     </html>
-  )
+  );
 }
