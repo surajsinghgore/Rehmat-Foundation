@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 
 let mid=process.env.NEXT_PUBLIC_PAYTM_MID;
 let mkey=process.env.NEXT_PUBLIC_PAYTM_MKEY;
-let HOST="http://localhost:3000";
+let HOST=process.env.NEXT_PUBLIC_HOST_URL;
 export async function POST(req) {
   if (req.method == "POST") {
 
