@@ -84,6 +84,8 @@ export default function Page() {
             placeholder="Your Name"
             value={data.clientName}
             onChange={handleChangeInput}
+            required
+            autoFocus
           />
 
           <input
@@ -92,12 +94,14 @@ export default function Page() {
             name="email"
             value={data.email}
             onChange={handleChangeInput}
+            required
           />
           <textarea
             name="message"
             placeholder="Your Message"
             value={data.message}
             onChange={handleChangeInput}
+            required
           ></textarea>
           <button>SEND COMMENT</button>
         </form>

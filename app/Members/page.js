@@ -53,6 +53,16 @@ export default function page() {
 <h2>Jassi Ghuman</h2>
 </div>
 
+<div className={style.card}>
+<div className={style.image}>
+<Image src="/member/img16.jpg" alt="member 1" layout="fill" priority/>
+</div>
+<h3>Media Advisor</h3>
+<h2>Amarjit Singh</h2>
+</div>
+
+
+
 
 {/* member 6 */}
 <div className={style.card}>

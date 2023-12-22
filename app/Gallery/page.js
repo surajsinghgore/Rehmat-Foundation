@@ -70,6 +70,17 @@ export default function page() {
 <div className={style.sectionLarge}>
     <Image src="/gallery/img18.jpg" alt="img1" layout='fill' />
 </div>
+
+
+<div className={style.sectionSmall}>
+    <Image src="/gallery/img19.jpg" alt="img1" layout='fill' />
+</div>
+<div className={style.sectionSmall}>
+    <Image src="/gallery/img20.jpg" alt="img1" layout='fill' />
+</div>
+<div className={style.sectionSmall}>
+    <Image src="/gallery/img21.jpg" alt="img1" layout='fill' />
+</div>
       </div>
     </div>
   )
