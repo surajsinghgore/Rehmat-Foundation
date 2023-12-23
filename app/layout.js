@@ -22,7 +22,8 @@ export const metadata = {
     "rehmat foundation mohali",
     "rehmat",
     "rehmat ngo",
-    "Donate Rehmat Foundation"
+    "Donate Rehmat Foundation",
+    "Developer Rehmat Foundation"
   ],
   authors: [
     { name: "suraj singh, Amandeep Singh" },

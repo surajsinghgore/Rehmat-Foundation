@@ -39,6 +39,7 @@ Rehmat Foundation
 <li><span><FaAngleDoubleRight /></span><Link href="/Gallery">Gallery</Link></li>
 <li><span><FaAngleDoubleRight /></span><Link href="/Events">Events</Link></li>
 <li><span><FaAngleDoubleRight /></span><Link href="/Contact">Contact</Link></li>
+<li><span><FaAngleDoubleRight /></span><Link href="/Developer">Developer</Link></li>
 
 
 </div>

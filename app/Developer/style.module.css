@@ -1,0 +1,31 @@
+.Developer{
+    
+    position: relative;
+}
+.Developer h1{
+font-size: 2.3vw;
+font-weight: 600;
+    text-align: center;
+}
+
+.Developer p{
+    margin-top: 1%;
+font-size: 2vw;
+    text-align: center;
+}
+
+.Developer p span{
+
+    font-weight: 660;
+}
+.Developer p a{
+    font-weight: 400;
+
+    color: blue;
+}
+
+
+.Developer .details{
+margin-bottom: 5%;
+    margin-top: 5%;
+}
