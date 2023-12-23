@@ -7,6 +7,8 @@ let transporter = nodemailer.createTransport({
     pass: process.env.NEXT_PUBLIC_GMAIL_ACCOUNT_PASSWORD,
   },
 });
+let HOST=process.env.NEXT_PUBLIC_HOST_URL;
+
 export async function POST(req,res) {
   const formData = await req.formData()
   const BANKNAME = formData.get('BANKNAME')
@@ -162,7 +164,7 @@ const successToClient = await new Promise((resolve, reject) => {
 
 
 
-
+return NextResponse.redirect(`${HOST}/Donation/Success`)
 
 
 return NextResponse.json({
@@ -171,6 +173,7 @@ return NextResponse.json({
 });
 
 }
+return NextResponse.redirect(`${HOST}/Donation/Failed`)
   
 return NextResponse.json({
   message: "Something went wrong",
