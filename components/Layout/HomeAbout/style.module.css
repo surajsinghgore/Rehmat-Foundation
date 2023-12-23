@@ -41,3 +41,20 @@ margin-left: 5%;
     color: rgb(109, 109, 109);
     font-size: 1.4vw !important;
 }
+
+
+
+
+
+@media only screen and (min-width: 0px)and (max-width:800px)   {
+       
+
+    .AboutHome{
+        margin-top: 4%;
+           
+        }
+        
+ 
+        
+
+}

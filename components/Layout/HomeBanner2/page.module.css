@@ -32,3 +32,48 @@
     color: rgb(255, 255, 255);
     background: rgb(0, 0, 0);
   }
+
+
+  
+@media only screen and (min-width: 0px)and (max-width:800px)   {
+       
+
+
+  .homeBannerContainer {
+    position: relative;
+    margin-top: 2%;
+  }
+  .homeBannerContainer .HomeBanner {
+    position: relative;
+    width: 100%;
+    height: 35vw;
+    background-color: red;
+  
+    background: url("../../../public/banner2.jpg");
+  
+    background-size: cover;
+  }
+  
+  .HomeBanner .textHeading {
+    
+    text-align: center;
+    text-shadow: 21px 12px 25px rgb(11, 11, 11);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 2.3vw;
+    width: 100%;
+
+    padding: 0%;
+    padding-top: 24%;
+    font-weight: 600;
+  }
+  .HomeBanner .textHeading::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+  }
+
+      
+
+      
+
+}

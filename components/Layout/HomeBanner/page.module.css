@@ -138,3 +138,149 @@ text-align: center;
 
     
   
+
+
+    @media only screen and (min-width: 0px)and (max-width:800px)   {
+        
+      
+.homeBannerContainer {
+    position: relative;
+    margin-bottom: 0%;
+  }
+  .homeBannerContainer .HomeBanner {
+    position: relative;
+    width: 100%;
+    height: 35vw;
+    background-color: red;
+  
+    background: url("../../../public/homebanner.jpg");
+  
+    background-size: cover;
+  }
+  
+  .HomeBanner .textHeading {
+    text-align: center;
+    text-shadow: 2px 2px 20px rgb(14, 14, 14);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 3vw;
+    width: 100%;
+    padding: 10%;
+    font-weight: 600;
+  }
+  .HomeBanner .textHeading::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+  }
+  
+  /* upcoming event */
+  .homeBannerContainer .upcomingEvent {
+      position: relative;
+      bottom: 0;
+      left: 0;
+    display: flex;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    height: auto;
+  }
+  
+  .homeBannerContainer .upcomingEvent .date{
+      
+      width: 20%;
+  }
+  .homeBannerContainer .upcomingEvent .date div{
+  width: 50%;
+  margin-top: 33%;
+  margin-left: 20%;
+  font-size: 1.4vw;
+  padding: 5% 2%;
+  text-align: center;
+  color: white;
+      background-color: #b10707;;
+  }
+  .homeBannerContainer .upcomingEvent .date div h1{
+      font-size: 1.1vw;
+      text-transform: uppercase;
+  }
+  
+  .homeBannerContainer .upcomingEvent .eventDetails{
+      width: auto;
+      margin-bottom: 6%;
+  }
+  .homeBannerContainer .upcomingEvent .eventDetails h1{
+  font-weight:650;
+  margin-top: 10%;
+  font-size: 1.6vw;
+  font-family: Arial, Helvetica,   sans-serif;
+      text-transform: uppercase;
+  }
+ 
+  
+  .homeBannerContainer .upcomingEvent .eventDetails h2{
+      display: flex;
+  color: #6b6b6b;
+      margin-top: 2%;
+      
+      font-size: 1.5vw;
+  }
+  
+  .homeBannerContainer .upcomingEvent .eventDetails h2 span{
+      color: red;
+      margin-top: 1%;
+      padding-right: 2%;
+  }
+  
+  /* count down */
+  
+      .homeBannerContainer .upcomingEvent  .countdown{
+  margin-top: 3%;
+  margin-left: 2%;
+          display: flex;
+      }
+  
+      .homeBannerContainer .upcomingEvent  .countdown div{
+  margin-left: 5%; 
+  position: relative;
+  list-style: none;
+  display: block;
+  text-align: center;
+  
+      }
+      .homeBannerContainer .upcomingEvent  .countdown div li{
+          position: relative;
+  margin-top: 50%;
+  margin-left: 5%;
+  font-weight: 600;
+  width: 4.5vw;
+  height: 7vw;
+  border-right: 1px solid rgb(186, 186, 186);
+  
+      }
+      .homeBannerContainer .upcomingEvent  .countdown div li h1{
+  font-size: 3vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+      
+      }
+      .homeBannerContainer .upcomingEvent  .countdown div li h2{
+  color: rgb(72, 72, 72);
+  position: absolute;
+  top: -95%;
+  left: 10%;
+          font-weight: 400;
+   font-size: 1vw;
+   padding-top: 255%;
+  text-align: center;
+  
+      }
+      .homeBannerContainer .upcomingEvent  .countdown div:nth-child(4) li{
+          border-right: none !important;
+      }
+  
+  
+      
+    
+  
+    }

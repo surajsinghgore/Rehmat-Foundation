@@ -118,3 +118,125 @@ justify-content: center;
 padding-top:0.4%;
 
 }
+
+
+@media only screen and (min-width: 0px)and (max-width:800px)   {
+
+   
+    
+
+    .FooterSection .mainContainer .address{
+    padding-left: 5%;
+        width: 40%;
+        padding-top: 2%;
+    }
+    .FooterSection .mainContainer .address .nameSection{
+    
+        display: flex;
+    }
+    .FooterSection .mainContainer .address .nameSection .imageSection{
+        position: relative;
+    width: 14%;
+    height: 5vw;
+    
+    }
+    .FooterSection .mainContainer .address .nameSection .brandName{
+    font-size: 1.2vw;
+    padding-top: 5%;
+    padding-left: 2%;
+    }
+    .FooterSection .mainContainer .address .contact{
+        list-style: none;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        margin-left: 2%;
+        font-size: 1.1vw;
+    }
+    .FooterSection .mainContainer .address .contact li{
+        display: flex;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .FooterSection .mainContainer .address .contact li span{
+    padding-top: 0.7%;
+    margin-right: 2%;
+        color: red;
+    }
+    
+    .FooterSection .mainContainer .useFullLinks {
+        width: 30%;
+    }
+    
+    .FooterSection .mainContainer .useFullLinks h3{
+        font-size: 1.4vw;
+        padding-top: 12%;
+    }
+    
+    .FooterSection .mainContainer .useFullLinks .links{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1.2vw;
+        margin-top: 8%;
+        list-style: none;
+    }
+    .FooterSection .mainContainer .useFullLinks .links li{
+    display: flex;
+        width: 34%;
+        margin-top: 2%;
+    }
+    .FooterSection .mainContainer .useFullLinks .links li:hover{
+    
+    color: rgb(255, 60, 0);
+    }
+    
+    .FooterSection .mainContainer .useFullLinks .links li span{
+    padding-top: 2%;
+    margin-right: 2%;
+        color: red;
+    }
+    
+    
+    
+    
+    
+    
+    /*  */
+    
+    .FooterSection .mainContainer .aboutUs {
+        width: 30%;
+    }
+    
+    .FooterSection .mainContainer .aboutUs h3{
+        font-size: 1.4vw;
+        padding-top: 11%;
+    }
+    
+    .FooterSection .mainContainer .aboutUs p{
+        width: 80%;
+        font-size: 1.2vw;
+        padding-top: 6%;
+    }
+    
+    .FooterSection .bottom{
+        display: flex;
+        background-color: white;
+    justify-content: center;
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: 1.4vw;
+        text-align: center;
+    }
+    
+    
+    
+    
+    .FooterSection .bottom span{
+        font-size: 1.5vw;
+        color: red;
+    padding-top:0.4%;
+    
+    }
+    
+    
+}
