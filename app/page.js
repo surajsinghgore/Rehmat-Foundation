@@ -6,12 +6,12 @@ import PastEvent from '../components/Layout/PastEvent/page';
 
 
 export default function Home() {
-  return <>
+  return <div>
 
 <HomeBanner />
 <HomeAboutImage />
 <HomeBanner2 />
 <PastEvent/>
-  </>
+  </div>
     
 }

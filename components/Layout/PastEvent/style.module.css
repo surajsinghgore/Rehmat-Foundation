@@ -1,11 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
 .PastEvent{
+    clear: both;
+    position: relative;
     width: 100%;
-    background-color: #f9f9f9;
+  
 padding-bottom: 5%;
 }
 .PastEvent h1{
+    clear: both;
+    position: relative;
     text-align: center;
     font-size: 3vw;
     padding-top: 5%;
@@ -21,7 +25,8 @@ color: rgb(84, 84, 84);
 }
 
 .PastEvent .container{
-
+    clear: both;
+    position: relative;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -85,7 +90,8 @@ color: rgb(245, 66, 66);
        
 
     .PastEvent{
- 
+        clear: both;
+        position: relative;
     padding-bottom: 5%;
     }
     .PastEvent h1{
