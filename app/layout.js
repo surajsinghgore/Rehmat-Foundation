@@ -8,7 +8,7 @@ export const metadata = {
     icon: "./icon.png",
   },
   title: "Rehmat Foundation",
-  description: "This is official website of rehmat foundation chandigarh",
+  description: "This is official website of rehmat foundation",
   generator: "Next.js",
   applicationName: "Rehmat Foundation",
   referrer: "origin-when-cross-origin",
@@ -16,6 +16,13 @@ export const metadata = {
     "Rehmat Foundation",
     "Rehmat Foundation Chandigarh",
     "Rehmat Foundation Donation",
+    "rehmat foundation",
+    "rehmat foundation in",
+    "rehmat foundation chandigarh",
+    "rehmat foundation mohali",
+    "rehmat",
+    "rehmat ngo",
+    "Donate Rehmat Foundation"
   ],
   authors: [
     { name: "suraj singh, Amandeep Singh" },

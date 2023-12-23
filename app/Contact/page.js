@@ -45,7 +45,7 @@ export default function page() {
             <span>
               <MdMailOutline />
             </span>
-            rehmatfoundation43@gmail.com
+            rehmatfoundationofficial@gmail.com
           </li>
         </div>
         <FormContainer />

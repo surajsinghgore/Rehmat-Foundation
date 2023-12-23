@@ -22,8 +22,8 @@ export default function page() {
               Allah created the Light; then, by His Creative Power, He made all
               mortal beings. &rdquo;Ek noor te sab jag upajya, koun bhalley koun
               mandey&rdquo; From the One Light, the entire universe welled up.
-              So who is good, and who is bad? The main focus of foundation is to
-              provide education to needy youth to lighten the coming Future and to engage youth with ourself.
+              So who is good, and who is bad? <b>The main focus of foundation is to
+              provide education to needy youth to lighten the coming Future and to engage youth with ourself.</b>
             </h2>
           </div>
         </div>
@@ -59,7 +59,23 @@ export default function page() {
 <h2>Jarnail Singh, DY Commissioner Excise and Taxation PB(Retd.)</h2>
 </div>
 
+<div className={style.card}>
+<div className={style.image}>
+<Image src="/member/img12.jpg" alt="member 1" layout="fill" priority/>
+</div>
+<h3>President</h3>
+<h2> Kuldeep Singh</h2>
+</div>
 
+
+
+<div className={style.card}>
+<div className={style.image}>
+<Image src="/member/img3.jpg" alt="member 1" layout="fill" priority/>
+</div>
+<h3>Finance Secretary</h3>
+<h2>Mandeep Singh</h2>
+</div>
 </div>
     </div>
   );
