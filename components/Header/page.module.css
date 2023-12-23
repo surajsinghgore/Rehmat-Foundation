@@ -67,3 +67,72 @@
   margin-top: 10%;
   border: 2px solid rgb(244, 2, 2);
 }
+
+@media only screen and (min-width: 0px)and (max-width:800px)   {
+
+  .Header .logo {
+    width: 30%;
+    padding-left: 4%;
+    display: flex;
+  }
+  .Header .logo .image {
+    position: relative;
+    width: 6vw;
+    height: 6vw;
+    user-select: none;
+  }
+  .Header .logo .heading {
+    margin-top: 5.5%;
+    font-size: 2vw;
+    margin-left: 2%;
+    font-weight: 600;
+    user-select: none;
+  }
+  .Header .logo .heading span {
+    color: #c23023;
+  }
+  /* header links */
+  .Header .links {
+    width: 65%;
+    list-style: none;
+    margin-left: 2%;
+    display: flex;
+    height: auto;
+  }
+  
+  .Header .links li {
+    margin-left: 5%;
+    font-weight: 600;
+    color: #515151;
+    margin-top: 4%;
+  
+    font-size: 1.2vw;
+  }
+  /* hover on links */
+  .Header .links li:hover {
+    color: #c23023 !important;
+  }
+  
+  .activePage {
+    color: #c23023 !important;
+  }
+  
+  /* donate button */
+  .Header .donateButton {
+    position: relative;
+    width: 15%;
+  }
+  .Header .donateButton button {
+    position: absolute;
+    top: 2%;
+    left: 0;
+    padding: 3% 22%;
+    font-weight: 550;
+    background-color: #fe5101;
+    font-size: 1.2vw;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-top: 6%;
+    border: 2px solid rgb(244, 2, 2);
+  }
+}
