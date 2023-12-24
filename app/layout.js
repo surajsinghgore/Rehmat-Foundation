@@ -8,10 +8,11 @@ export const metadata = {
     icon: "./icon.png",
   },
   title: "Rehmat Foundation",
-  description: "This is official website of rehmat foundation",
+  description: "This is official website of rehmat foundation, rehmat foundation chandigarh,rehmat foundation,rehmat foundation in,rehmat foundation mohali",
   generator: "Next.js",
   applicationName: "Rehmat Foundation",
   referrer: "origin-when-cross-origin",
+  robots: "index,follow",
   keywords: [
     "Rehmat Foundation",
     "Rehmat Foundation Chandigarh",
@@ -36,7 +37,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    
+    <head>
+
+    <link
+          rel="canonical"
+          href="https://www.rehmatfoundation.in/"
+          key="canonical"
+        />
+    </head>
       <body>
     
         <Header />
