@@ -1,0 +1,11 @@
+.parent{
+        margin-top: 5%;
+        margin-bottom: 5%;
+     
+}
+
+.card{
+    float: left;
+    width: 28%;
+    margin-left: 4%;
+}

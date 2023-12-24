@@ -1,5 +1,6 @@
 
 import style from './style.module.css'
+
 export default function page() {
   return (
     <div className={style.videoSection}>
@@ -9,6 +10,7 @@ export default function page() {
 <div className={style.format}>
 
 {/* video1 */}
+
 <video width="320" height="240" controls>
   <source src="https://res.cloudinary.com/du68kdw3m/video/upload/v1703343182/ka9ew0m5ua21kebbmbw3.mp4" type="video/mp4"/>
   <source src="https://res.cloudinary.com/du68kdw3m/video/upload/v1703343182/ka9ew0m5ua21kebbmbw3.mp4" type="video/ogg"/>

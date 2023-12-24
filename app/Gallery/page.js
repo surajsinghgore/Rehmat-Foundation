@@ -1,10 +1,12 @@
 import Image from 'next/legacy/image'
 import style from './style.module.css'
-
+import SkeletonComp from '../../components/PageSkeleton/page'
+import { Suspense } from 'react'
 export default function page() {
   return (
     <div className={style.gallery}>
       <h1>Gallery</h1>
+      <Suspense fallback={<SkeletonComp number={21}/>}>
       <div className={style.pics}>
 
 <div className={style.sectionSmall}>
@@ -82,6 +84,8 @@ export default function page() {
     <Image src="/gallery/img21.jpg" alt="img1" layout='fill' />
 </div>
       </div>
+      </Suspense>
+    
     </div>
   )
 }
