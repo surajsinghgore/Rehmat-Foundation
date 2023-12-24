@@ -49,4 +49,4 @@ NEXTJS 14
 ## Authors
 
 - [@Suraj singh](https://www.linkedin.com/in/surajsinghgore/)
-- [@Amandeep singh](hhttps://www.linkedin.com/in/amandeep-singh-2102a6258/)
+- [@Amandeep singh](https://www.linkedin.com/in/amandeep-singh-2102a6258/)
