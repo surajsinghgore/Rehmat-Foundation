@@ -76,6 +76,24 @@ export default function page() {
 <h3>Finance Secretary</h3>
 <h2>Mandeep Singh</h2>
 </div>
+
+<div className={style.card}>
+<div className={style.image}>
+<Image src="/member/img14.jpg" alt="member 1" layout="fill" priority/>
+</div>
+<h3>Sr Vice President</h3>
+<h2>Sukhdev Singh</h2>
+</div>
+
+<div className={style.card}>
+<div className={style.image}>
+<Image src="/member/img10.jpg" alt="member 1" layout="fill" priority/>
+</div>
+<h3>General Secretary</h3>
+<h2>Ram Singh Balongi</h2>
+</div>
+
+  
 </div>
     </div>
   );
