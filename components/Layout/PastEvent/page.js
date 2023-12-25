@@ -14,7 +14,7 @@ export default function page() {
 {/* 18 Dec 2022 */}
         <div className={style.event}>
 <div className={style.Main_Image}>
-<Image src="/event1.jpg" alt="event 1" layout='fill' priority/>
+<Image src="/firstevent.jpg" alt="event 1" layout='fill' priority/>
 </div>
 <h2>Chaar Sahibzade</h2>
 <p>Event 1</p>
