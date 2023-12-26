@@ -40,6 +40,7 @@ Rehmat Foundation
 <li><span><FaAngleDoubleRight /></span><Link href="/Events">Events</Link></li>
 <li><span><FaAngleDoubleRight /></span><Link href="/Contact">Contact</Link></li>
 <li><span><FaAngleDoubleRight /></span><Link href="/Developer">Developer</Link></li>
+  <li><span><FaAngleDoubleRight /></span><Link href="https://ammyasl2003.github.io/AMMYCODING/rehmat.html">GALLERY</Link></li>
 
 
 </div>
