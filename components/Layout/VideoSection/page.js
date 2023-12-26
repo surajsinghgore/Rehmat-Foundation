@@ -42,7 +42,11 @@ Your browser does not support the video tag.
   <source src="https://res.cloudinary.com/du68kdw3m/video/upload/v1703343436/l8bokvfq0oktq4hfdp2y.mp4" type="video/ogg"/>
 Your browser does not support the video tag.
 </video>
-
+<video width="320" height="240" controls>
+  <source src="https://res.cloudinary.com/du68kdw3m/video/upload/v1703567742/n6mhjrhmjiqi9il1khk9.mp4" type="video/mp4"/>
+  <source src="https://res.cloudinary.com/du68kdw3m/video/upload/v1703567742/n6mhjrhmjiqi9il1khk9.mp4" type="video/ogg"/>
+Your browser does not support the video tag.
+</video>
 </div>
 
 
