@@ -10,7 +10,7 @@ export default function page() {
      {/* image */}
 <div className={style.left}>
 
-    <Image src={"/firstevent.jpg"} alt='lsogo' layout='fill' priority />
+    <Image src={"/about1.jpg"} alt='lsogo' layout='fill' priority />
 </div>
 <div className={style.right}>
 <h2>
