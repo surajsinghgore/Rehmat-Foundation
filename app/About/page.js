@@ -11,7 +11,7 @@ export default function page() {
         <div className={style.container}>
           {/* image */}
           <div className={style.left}>
-            <Image src={"/homeabout.jpg"} alt="lsogo" layout="fill" priority />
+            <Image src={"/about1.jpg"} alt="lsogo" layout="fill" priority />
           </div>
           <div className={style.right}>
             <h2>
