@@ -12,7 +12,7 @@ export const metadata = {
   generator: "Next.js",
   applicationName: "Rehmat Foundation",
   referrer: "origin-when-cross-origin",
-  robots: "index,follow",
+  robots: "index",
   keywords: [
     "Rehmat Foundation",
     "Rehmat Foundation Chandigarh",
