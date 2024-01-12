@@ -17,8 +17,8 @@ export default function page() {
     {/* upcoming */}
 
 
-    <div className={style.upcomingEvent}>
-    {/* date */}
+    {/* <div className={style.upcomingEvent}>
+
     <div className={style.date}>
     <div>
        <h2>30 DEC</h2> 
@@ -26,7 +26,7 @@ export default function page() {
     
     </div>
     </div>
-{/* details */}
+
     <div className={style.eventDetails}> 
     <h1><Link href="/UpcomingEvent">Upcoming Event : 2nd SHAHEEDI JODMEL OF CHAAR SAHIBZADE</Link> </h1>
        <h2> <span><FaRegCalendar /> </span>  10:00 AM - 9:00 PM</h2>
@@ -34,14 +34,14 @@ export default function page() {
   
 
     </div>
-{/* date */}
+
 <CountDownTimer date={"30.12.2023"} time={"10.00"}/>    
 
 
 
-    </div>
+    </div> */}
 
-
+  
 
     </div>
   );

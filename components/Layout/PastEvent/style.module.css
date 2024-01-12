@@ -23,20 +23,24 @@ padding-bottom: 5%;
     text-transform: uppercase;
 color: rgb(84, 84, 84);
 }
-
-.PastEvent .container{
-    clear: both;
-    position: relative;
-    width: 100%;
+.PastEvent .parent{
+    margin-top: 2%;
     display: flex;
     flex-wrap: wrap;
-    
-    justify-content:space-evenly;
+    justify-content: center;
 }
+.PastEvent .parent .container{
+    width: 26%;
+    margin-right: 2%;
+   
+}
+
+
+
 
 .PastEvent .container .event{
     margin-top: 2%;
-    width: 26%;
+    width: 100%;
     height: auto;
    padding-bottom: 1.5%;
 }

@@ -14,7 +14,7 @@ export default function page() {
 <div className={style.container}>
 
 {/* 30 Dec 2023 */}
-<div className={style.card}><Link href="/UpcomingEvent">
+<div className={style.card}><Link href="/Events/Event2">
 <div className={style.imageSection}>
 <Image src="/uc.jpg" alt="event 1" layout='fill' priority />
 </div>
