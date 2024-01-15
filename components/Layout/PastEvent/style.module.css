@@ -163,9 +163,31 @@ color: rgb(245, 66, 66);
     color: rgb(245, 66, 66);
     }
     
+    .PastEvent .parent{
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .PastEvent .parent .container{
+        width: 100%;
+        margin-right: 0%;
+       
+    }
+    .PastEvent .container .event{
+        margin-top: 2%;
+        width: 65vw;
+        height: auto;
+        margin-left: 17.5%;
+       padding-bottom: 1.5%;
+    }
+      
+    .PastEvent .container .event .Main_Image{
     
-        
- 
+        position: relative;
+        width: 100%;
+        height: 30vw;
+    }
         
 
 }

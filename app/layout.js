@@ -4,11 +4,10 @@ import Footer from "../components/Footer/page";
 import "./globals.css";
 
 export const metadata = {
-  icons: {
-    icon: "./icon.png",
-  },
+  
   title: "Rehmat Foundation",
-  description: "This is official website of rehmat foundation, rehmat foundation chandigarh,rehmat foundation,rehmat foundation in,rehmat foundation mohali",
+  description:
+    "This is official website of rehmat foundation, rehmat foundation chandigarh,rehmat foundation,rehmat foundation in,rehmat foundation mohali",
   generator: "Next.js",
   applicationName: "Rehmat Foundation",
   referrer: "origin-when-cross-origin",
@@ -24,7 +23,7 @@ export const metadata = {
     "rehmat",
     "rehmat ngo",
     "Donate Rehmat Foundation",
-    "Developer Rehmat Foundation"
+    "Developer Rehmat Foundation",
   ],
   authors: [
     { name: "suraj singh, Amandeep Singh" },
@@ -37,14 +36,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <head>
-
-    <link
+      <head>
+        <link
           rel="canonical"
           href="https://www.rehmatfoundation.in/"
           key="canonical"
         />
-    </head>
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/>
+      </head>
       <body>
     
         <Header />
@@ -52,7 +55,6 @@ export default function RootLayout({ children }) {
         {children}
 
         <Footer />
-     
       </body>
     </html>
   );
