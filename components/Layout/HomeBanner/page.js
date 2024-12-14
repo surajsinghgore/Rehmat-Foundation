@@ -1,48 +1,115 @@
 import style from "./page.module.css";
-import { FaRegCalendar } from "react-icons/fa"; 
+import { FaRegCalendar } from "react-icons/fa";
 import { VscLocation } from "react-icons/vsc";
 
-import CountDownTimer from "../CountDownTimer/page"
+import CountDownTimer from "../CountDownTimer/page";
 import Link from "next/link";
 export default function page() {
   return (
-    <div className={style.homeBannerContainer}>
+    <>
+      <div className={style.homeBannerContainer}>
+        <div className={style.HomeBanner}>
+          <div className={style.textHeading}>
+            Living a life of Truth, believe in one God (creator of universe),
+            respect for others, and high moral standards.
+          </div>
+        </div>
+        {/* upcoming */}
 
-    <div className={style.HomeBanner}>
-      <div className={style.textHeading}>
-        Living a life of Truth, believe in one God (creator of universe),
-        respect for others, and high moral standards.
+        <div className={style.upcomingEvent}>
+          <div className={style.date}>
+            <div>
+              <h2>25 DEC</h2>
+              <h2> 2024</h2>
+            </div>
+          </div>
+
+          <div className={style.eventDetails}>
+            <h1>
+              <Link href="/UpcomingEvent">
+                Upcoming Event : 3rd SHAHEEDI JODMEL OF CHAAR SAHIBZADE
+              </Link>{" "}
+            </h1>
+            <h2>
+              {" "}
+              <span>
+                <FaRegCalendar />{" "}
+              </span>{" "}
+              10:00 AM
+            </h2>
+            <h2>
+              {" "}
+              <span>
+                {" "}
+                <VscLocation />
+              </span>{" "}
+              Gurudwara Sahib Bagh Saheeda Sector 44 Chandigarh
+            </h2>
+          </div>
+
+          <CountDownTimer date={"25.12.2024"} time={"10.00"} />
+        </div>
       </div>
-    </div>
-    {/* upcoming */}
 
+      {/* poaster */}
 
-    {/* <div className={style.upcomingEvent}>
+      <div class="flex items-center justify-around bg-gray-50 p-6 rounded-lg">
+        <div class="w-96 p-4">
+          <img
+            src="https://res.cloudinary.com/du68kdw3m/image/upload/v1734195076/rehmat_vxoao3.jpg"
+            alt="Blood Donation Camp"
+            class="rounded-lg shadow-md w-full h-auto"
+          />
+        </div>
 
-    <div className={style.date}>
-    <div>
-       <h2>30 DEC</h2> 
-       <h2> 2023</h2> 
-    
-    </div>
-    </div>
+        <div class="w-full md:w-1/2 p-6">
+          <h2 class="text-3xl font-bold text-gray-800 mb-4">Upcoming Event</h2>
+          <p class="text-lg text-gray-600 mb-4">
+            3rd SHAHEEDI JODMEL OF CHAAR SAHIBZADE
+          </p>
+          <p class="text-lg text-gray-600 mb-6">
+            <strong>Date:</strong>25th December 2024
+          </p>
+          <p class="text-lg text-gray-600 mb-6">
+            <strong>Venue:</strong> Gurudwara Sahib Baag Saheeda, Sector 44-A,
+            Chandigarh
+          </p>
+          <p class="text-base text-gray-700 font-medium">
+            Your participation can save lives. All are requested to donate blood
+            to support thalassaemic patients.
+          </p>
+        </div>
+      </div>
 
-    <div className={style.eventDetails}> 
-    <h1><Link href="/UpcomingEvent">Upcoming Event : 2nd SHAHEEDI JODMEL OF CHAAR SAHIBZADE</Link> </h1>
-       <h2> <span><FaRegCalendar /> </span>  10:00 AM - 9:00 PM</h2>
-  <h2> <span> <VscLocation /></span> Dusshera Ground, Sector 43 A Chandigarh</h2>
-  
-
-    </div>
-
-<CountDownTimer date={"30.12.2023"} time={"10.00"}/>    
-
-
-
-    </div> */}
-
-  
-
-    </div>
+      <div className="w-full mt-3 mb-20 h-[450px] flex items-center justify-around gap-14">
+        <div className="w-96 h-[90%] flex item-center justify-center">
+          <video width="450" height="240" controls>
+            <source
+              src="https://res.cloudinary.com/du68kdw3m/video/upload/v1734195076/vid1_ljzyiv.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div className="w-96 h-[90%] flex item-center justify-center">
+          <video width="450" height="240" controls>
+            <source
+              src="https://res.cloudinary.com/du68kdw3m/video/upload/v1734195076/vid3_bfamqt.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div className="w-96 h-[90%] flex item-center justify-center">
+          <video width="450" height="240" controls>
+            <source
+              src="https://res.cloudinary.com/du68kdw3m/video/upload/v1734195076/vid2_jhgcyh.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </>
   );
 }
