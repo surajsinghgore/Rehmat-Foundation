@@ -53,8 +53,8 @@ export default function page() {
 
       {/* poaster */}
 
-      <div class="flex items-center justify-around bg-gray-50 p-6 rounded-lg">
-        <div class="w-96 p-4">
+      <div class="flex flex-wrap items-center justify-center bg-gray-50 p-6 rounded-lg">
+        <div class="w-full md:w-96 p-4">
           <img
             src="https://res.cloudinary.com/du68kdw3m/image/upload/v1734195076/rehmat_vxoao3.jpg"
             alt="Blood Donation Camp"
@@ -62,28 +62,30 @@ export default function page() {
           />
         </div>
 
-        <div class="w-full md:w-1/2 p-6">
-          <h2 class="text-3xl font-bold text-gray-800 mb-4">Upcoming Event</h2>
-          <p class="text-lg text-gray-600 mb-4">
+        <div class="w-full md:w-1/2 p-6 text-center md:text-left">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+            Upcoming Event
+          </h2>
+          <p class="text-base md:text-lg text-gray-600 mb-4">
             3rd SHAHEEDI JODMEL OF CHAAR SAHIBZADE
           </p>
-          <p class="text-lg text-gray-600 mb-6">
-            <strong>Date:</strong>25th December 2024
+          <p class="text-base md:text-lg text-gray-600 mb-6">
+            <strong>Date:</strong> 25th December 2024
           </p>
-          <p class="text-lg text-gray-600 mb-6">
+          <p class="text-base md:text-lg text-gray-600 mb-6">
             <strong>Venue:</strong> Gurudwara Sahib Baag Saheeda, Sector 44-A,
             Chandigarh
           </p>
-          <p class="text-base text-gray-700 font-medium">
+          <p class="text-sm md:text-base text-gray-700 font-medium">
             Your participation can save lives. All are requested to donate blood
             to support thalassaemic patients.
           </p>
         </div>
       </div>
 
-      <div className="w-full mt-3 mb-20 h-[450px] flex items-center justify-around gap-14">
-        <div className="w-96 h-[90%] flex item-center justify-center">
-          <video width="450" height="240" controls>
+      <div class="w-full mt-3 mb-20 flex flex-wrap items-center justify-center gap-4 md:gap-14">
+        <div class="w-full md:w-96 h-[90%] flex items-center justify-center">
+          <video class="w-full md:w-[450px]" controls>
             <source
               src="https://res.cloudinary.com/du68kdw3m/video/upload/v1734195076/vid1_ljzyiv.mp4"
               type="video/mp4"
@@ -91,8 +93,8 @@ export default function page() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="w-96 h-[90%] flex item-center justify-center">
-          <video width="450" height="240" controls>
+        <div class="w-full md:w-96 h-[90%] flex items-center justify-center">
+          <video class="w-full md:w-[450px]" controls>
             <source
               src="https://res.cloudinary.com/du68kdw3m/video/upload/v1734195076/vid3_bfamqt.mp4"
               type="video/mp4"
@@ -100,8 +102,8 @@ export default function page() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="w-96 h-[90%] flex item-center justify-center">
-          <video width="450" height="240" controls>
+        <div class="w-full md:w-96 h-[90%] flex items-center justify-center">
+          <video class="w-full md:w-[450px]" controls>
             <source
               src="https://res.cloudinary.com/du68kdw3m/video/upload/v1734195076/vid2_jhgcyh.mp4"
               type="video/mp4"
